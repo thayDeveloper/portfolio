@@ -11,13 +11,13 @@
 
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
+  --title-color: #0d0e0c;
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --title-color-light: hsl(var(--hue), var(--sat), 40%);
+  --title-color-light: #e4e4e4;
 
   --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --body-color: #3b3f49;
+  --container-color: #3b3f49;
 
   --body-font: "Poppins", sans-serif;
 
@@ -143,6 +143,7 @@ img {
 
 .button:hover {
   background-color: var(--title-color-dark);
+  scale: 1.1;
 }
 
 .button__icon {
@@ -162,6 +163,15 @@ img {
     margin-right: var(--mb-1-5);
   }
 
+  .button {
+    padding: 1rem 1.75rem;
+  }
+
+  .button__icon {
+    width: 22px;
+    height: 22px;
+  }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -169,9 +179,17 @@ img {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
   }
+
+  .section {
+    padding: 2rem 0 4rem;
+  }
 }
 
 @media screen and (max-width: 350px) {
+  :root {
+    --big-font-size: 2.25rem
+  }
+
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
