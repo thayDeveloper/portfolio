@@ -18,7 +18,7 @@ const Social = () => {
         <i class="uil uil-linkedin-alt"></i>
       </a>
       <a
-        href="https://github.com/thayDeveloper"
+        href="https://github.com/thaydeveloper"
         className="home__social-icon"
         target="_blank"
       >
