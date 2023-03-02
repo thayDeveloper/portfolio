@@ -2,7 +2,6 @@ import React from "react";
 import "./about.css";
 import Perfil2 from "../../assets/perfil2.jpg";
 import CV from "../../assets/cv.pdf";
-import Info from "./info";
 
 const About = () => {
   return (
@@ -14,23 +13,19 @@ const About = () => {
         <img src={Perfil2} alt="" className="about__img" />
 
         <div className="about__data">
-          <Info />
-
           <p className="about__description">
             Desenvolvedor front-end, crio páginas web com design responsivo, e
-            utilizando as tecnologias mais atuais do mercado, entregando assim
-            uma melhor experiência do usuário.
+            utilizando as tecnologias mais atuais e de alta performance,
+            entregando assim uma melhor experiência do usuário.
           </p>
-          <br />
 
           <p className="about__description">
             Sou apaixonado pelo potencial transformador da tecnologia na vida
-            das pessoas e esse foi o principal fator motivador da minha
-            transição de carreira de Profissional de telemarketing para
+            das pessoas, e esse foi o principal fator motivador da minha
+            transição de carreira, de Profissional de telemarketing para
             Desenvolvimento Web.
           </p>
 
-          <br />
           <a download="" href={CV} className="button button--flex">
             CV Downloand
             <svg
