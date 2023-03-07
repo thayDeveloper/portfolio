@@ -16,8 +16,9 @@ function App() {
         <About />
         <Skills />
         <Contact />
-      <Footer />
       </main>
+      <Footer />
+      <ScrollUp />
     </>
   );
 }
