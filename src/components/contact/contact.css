@@ -92,6 +92,11 @@
 
 }
 
+.contact__form-input::placeholder {
+  color: black;
+
+}
+
 .contact__form-tag {
   position: absolute;
   top: -0.75rem;

@@ -13,7 +13,13 @@ const FrontEnd = () => {
               <span className="skills__level">intermediário</span>
             </div>
           </div>
-
+          <div className="skills__data">
+            <i class="uil uil-award"></i>
+            <div>
+              <h3 className="skills__name">Styled Components</h3>
+              <span className="skills__level">intermediário</span>
+            </div>
+          </div>
           <div className="skills__data">
             <i class="uil uil-award"></i>
             <div>
