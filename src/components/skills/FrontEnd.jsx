@@ -26,30 +26,28 @@ const FrontEnd = () => {
               <h3 className="skills__name">JavaScript</h3>
             </div>
           </div>
-        </div>
 
-        <div className="skills__group">
           <div className="skills__data">
             <i class="uil uil-award"></i>
             <div>
               <h3 className="skills__name">Bootstrap</h3>
             </div>
           </div>
-
           <div className="skills__data">
             <i class="uil uil-award"></i>
             <div>
               <h3 className="skills__name">Git</h3>
             </div>
           </div>
-
           <div className="skills__data">
             <i class="uil uil-award"></i>
             <div>
               <h3 className="skills__name">Type Script</h3>
             </div>
           </div>
+        </div>
 
+        <div className="skills__group">
           <div className="skills__data">
             <i class="uil uil-award"></i>
             <div>
@@ -80,6 +78,12 @@ const FrontEnd = () => {
             <i class="uil uil-award"></i>
             <div>
               <h3 className="skills__name">Remix JS</h3>
+            </div>
+          </div>
+          <div className="skills__data">
+            <i class="uil uil-award"></i>
+            <div>
+              <h3 className="skills__name">Next JS</h3>
             </div>
           </div>
         </div>

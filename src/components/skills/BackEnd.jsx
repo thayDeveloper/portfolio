@@ -10,7 +10,6 @@ const BackEnd = () => {
             <i class="uil uil-award"></i>
             <div>
               <h3 className="skills__name">NodeJS</h3>
-              <span className="skills__level">intermediário</span>
             </div>
           </div>
 
@@ -18,7 +17,6 @@ const BackEnd = () => {
             <i class="uil uil-award"></i>
             <div>
               <h3 className="skills__name">PostgreSQL</h3>
-              <span className="skills__level">básico</span>
             </div>
           </div>
 
@@ -26,7 +24,6 @@ const BackEnd = () => {
             <i class="uil uil-award"></i>
             <div>
               <h3 className="skills__name">API REST</h3>
-              <span className="skills__level">básico</span>
             </div>
           </div>
         </div>
@@ -36,7 +33,6 @@ const BackEnd = () => {
             <i class="uil uil-award"></i>
             <div>
               <h3 className="skills__name">MongoDB</h3>
-              <span className="skills__level">básico</span>
             </div>
           </div>
         </div>
